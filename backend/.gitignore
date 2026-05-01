@@ -1,0 +1,76 @@
+# ── Virtual environment ──────────────────────────────────────────
+venv/
+.venv/
+myvenv/
+.myvenv/
+env/
+
+# ── Python cache & compiled files ────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# ── Environment variables (NEVER commit these) ───────────────────
+.env
+.env.*
+!.env.example
+
+# ── Alembic ──────────────────────────────────────────────────────
+# Keep the versions folder but ignore any local overrides
+alembic/versions/*.pyc
+
+# ── Database ─────────────────────────────────────────────────────
+*.sqlite3
+*.db
+*.sql
+*.dump
+*.psql
+
+# ── Logs ─────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── OS files ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs & editors ───────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ── Testing & coverage ───────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.xml
+
+# ── Build & packaging ────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+MANIFEST
+
+# ── Jupyter (just in case) ───────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Uploads / local media ────────────────────────────────────────
+uploads/
+media/
+
+# ── ngrok ────────────────────────────────────────────────────────
+ngrok
+ngrok.exe
+*.ngrok
