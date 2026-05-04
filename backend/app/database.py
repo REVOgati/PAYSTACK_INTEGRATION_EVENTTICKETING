@@ -33,3 +33,7 @@ async def get_db() -> AsyncSession:
         except Exception:
             await session.rollback()
             raise
+        
+
+# ── Model imports (keep at bottom to avoid circular imports) ──────
+from app.models.user import User  # noqa: F401, E40
