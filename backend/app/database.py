@@ -37,3 +37,7 @@ async def get_db() -> AsyncSession:
 
 # ── Model imports (keep at bottom to avoid circular imports) ──────
 from app.models.user import User  # noqa: F401, E40
+from app.models.event import Event  # noqa: F401, E40
+from app.models.booking import Booking  # noqa: F401, E40
+from app.models.payment import Payment  # noqa: F401, E40
+from app.models.ticket import Ticket  # noqa: F401, E40
